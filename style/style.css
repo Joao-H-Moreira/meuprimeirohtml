@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Oxanium', cursive;
+}
+
+body {
+  text-align: center;
+  background: linear-gradient(to bottom, #6ab7f5, #fff);
+  min-height: 100vh;
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 30px;
+    text-decoration: none;
+  
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color:red;
+  }
+
+}
+
+main {
+  display: inline-block;
+  margin-top: 2%;
+  padding: 15px;
+  position: relative;
+}
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color:red;
+  }
+
+ol{
+display: flex;
+flex-direction: column;
+color: black;
+font-style: unset;
+text-align: left;
+padding: 20px 20px;
+text-decoration: none;
+margin: 15px;
+  
+}
+
+h1 {
+  color: red;
+ 
+}
+
+h2{
+  color:blue;
+  
+}
+h3{
+    color: green;
+   
+  }
+h4{
+    color: yellow;
+   
+  }
+
+div {
+  background-color: blue;
+  color: white;
+}
