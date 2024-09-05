@@ -41,6 +41,10 @@ body {
 }
 footer {
   display: block;
+  background-color: #333;
+  text-align: center;
+  color: whitesmoke;
+  padding: 20px 30px;
 }
 main {
   display: inline-block;
